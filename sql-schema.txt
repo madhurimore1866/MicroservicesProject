@@ -1,0 +1,11 @@
+create database University;
+Use University;
+
+create table Address(Id int AUTO_INCREMENT, Street varchar(255), City varchar(255),
+						
+                        PRIMARY KEY (Id));
+                        
+create table Student(Student_Id int AUTO_INCREMENT, first_name varchar(255), last_name varchar(255), email varchar(255),
+Id int,
+PRIMARY KEY(Student_Id)
+);
